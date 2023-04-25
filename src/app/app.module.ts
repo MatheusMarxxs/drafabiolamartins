@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 import { MatButtonModule } from '@angular/material/button';
+import { OpcoesComponent } from './opcoes/opcoes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    OpcoesComponent
   ],
   imports: [
     BrowserModule,
