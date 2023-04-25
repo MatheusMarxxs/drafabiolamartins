@@ -1,0 +1,24 @@
+#imagem {
+    background-image: url('/assets/dra.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
+  #logo {
+    margin-top: 50px;
+    background-image: url('/assets/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* add this line */
+    width: 315px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    
