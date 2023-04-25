@@ -1,9 +1,21 @@
-#imagem {
-    background-image: url('/assets/dra.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom;
-    width: 100vw;
-    height: 100vh;
-    margin-top: 150px;
-  }
+.btn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 16px 32px;
+  height: 60px;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(40%);
+  background-image: url('/assets/dra.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
