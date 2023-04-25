@@ -57,4 +57,4 @@ jobs:
           mkdir -p ~/.ssh && chmod 700 ~/.ssh
           ssh-keyscan ${{ secrets.IP_ADDRESS }} >> ~/.ssh/known_hosts
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/key_pair_dra_fabiola_martins && chmod 600 ~/.ssh/key_pair_dra_fabiola_martins
-          scp -r -i ~/.ssh/key_pair_dra_fabiola_martins ./dist/* ${{ secrets.USERNAME }}@${{ secrets.IP_ADDRESS }}:/var/www/drafabiolamartins.com.br
+          scp -r -i ~/.ssh/key_pair_dra_fabiola_martins ./dist/drafabiolamartins/* ${{ secrets.USERNAME }}@${{ secrets.IP_ADDRESS }}:/var/www/drafabiolamartins.com.br
