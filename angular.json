@@ -65,7 +65,7 @@
               ]
             },
             "drafabiolamartins": {
-              "outputPath": "dist/drafabiolamartins",
+              "outputPath": "dist/drafabiolamartins.com.br",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
