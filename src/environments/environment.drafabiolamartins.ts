@@ -1,6 +1,6 @@
 export const environment = {
-    title: 'PROD EXAMPLE - Dra. Fabíola Martins - CRO 130.460',
-    ga_key: '',
+    title: 'Dra. Fabíola Martins - CRO 130.460',
+    ga_key: 'G-89XM2V72S6',
     paginas: {
         logoUrl: '/assets/logo.png',
         home: {

@@ -63,6 +63,15 @@
                   "with": "src/environments/environment.development.ts"
                 }
               ]
+            },
+            "drafabiolamartins": {
+              "outputPath": "dist/drafabiolamartins",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.drafabiolamartins.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
