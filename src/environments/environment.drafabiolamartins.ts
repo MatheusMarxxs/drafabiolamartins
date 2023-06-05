@@ -5,7 +5,7 @@ export const environment = {
         logoUrl: '/assets/logo.png',
         home: {
             btnColor: 'accent',
-            btnText: 'Agendare',
+            btnText: 'Agendar',
             imageUrl: '/assets/dra.png'
         },
         opcoes: {
