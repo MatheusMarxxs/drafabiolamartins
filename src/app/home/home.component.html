@@ -1,8 +1,8 @@
 <div class="container">
-    <div class="logo"></div>
+    <div class="logo" [style.background-image]="'url(' + logoUrl + ')'"></div>
     <div class="button-container">
-        <button mat-raised-button color="accent" class="btn" routerLink="/agendar">Agendar</button>
+        <button mat-raised-button color="{{ btnColor }}" class="btn" routerLink="/agendar">{{ btnTexto }}</button>
     </div>
-    <div class="image"></div>
+    <div class="image" [style.background-image]="'url(' + imageUrl + ')'"></div>
 </div>
   

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 import { MatButtonModule } from '@angular/material/button';
 import { OpcoesComponent } from './opcoes/opcoes.component';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { OpcoesComponent } from './opcoes/opcoes.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxGoogleAnalyticsModule.forRoot('G-89XM2V72S6'),
+    NgxGoogleAnalyticsModule.forRoot(environment.ga_key),
     NgxGoogleAnalyticsRouterModule,
     MatButtonModule
   ],
