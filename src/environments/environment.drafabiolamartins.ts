@@ -2,11 +2,11 @@ export const environment = {
     title: 'Dra. Fabíola Martins - CRO 130.460',
     ga_key: 'G-89XM2V72S6',
     paginas: {
-        logoUrl: '/assets/logo.png',
+        logoUrl: '/assets/logo-drafabiolamartins.png',
         home: {
             btnColor: 'accent',
             btnText: 'Agendar',
-            imageUrl: '/assets/dra.png'
+            imageUrl: '/assets/drafabiolamartins.png'
         },
         opcoes: {
             btnColor: 'accent',

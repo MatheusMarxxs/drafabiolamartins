@@ -10,6 +10,7 @@ import { environment } from 'src/environments/environment';
 export class OpcoesComponent {
   logoUrl: string = environment.paginas.logoUrl
   btns: any = environment.paginas.opcoes.btns
+  btnColor: any = environment.paginas.opcoes.btnColor
 
   constructor(private $gaService: GoogleAnalyticsService) {}
 

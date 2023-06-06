@@ -1,7 +1,7 @@
 <div class="container">
     <div class="logo" [style.background-image]="'url(' + logoUrl + ')'"></div>
     <div class="button-container">
-        <button mat-raised-button color="accent" class="btn" (click)="abrirWhats(btn.btnMessage)" *ngFor="let btn of btns">{{ btn.btnText }}</button>
+        <button mat-raised-button color="{{ btnColor }}" class="btn" (click)="abrirWhats(btn.btnMessage)" *ngFor="let btn of btns">{{ btn.btnText }}</button>
     </div>
 </div>
   
