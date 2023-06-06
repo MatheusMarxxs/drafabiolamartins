@@ -4,12 +4,12 @@ export const environment = {
     paginas: {
         logoUrl: '/assets/logo-drrodrigosantana.png',
         home: {
-            btnColor: 'accent',
+            btnColor: 'primary',
             btnText: 'Agendar',
             imageUrl: '/assets/drrodrigosantana.png'
         },
         opcoes: {
-            btnColor: 'accent',
+            btnColor: 'primary',
             messagePrefix: 'Olá Dr. Rodrigo! Eu gostaria de agendar uma avaliação. ',
             whatsapp: '5513996781422',
             btns: [
